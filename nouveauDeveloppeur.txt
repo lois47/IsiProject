@@ -1,0 +1,15 @@
+A lire pour les nouveaux développeur :
+
+- Créer un compte GitHub sur http://github.com
+- Envoyer le nom de votre compte à l'administrateur du projet sous GitHub (colletlois@gmail.com).
+
+Sur Eclipse (STS de préférence) :
+- Cliquez sur importer puis "Projects from Git" sous Git.
+- Cliquez sur Clone puis saisissez les informations suivantes :
+	- Dans l'uri saisissiez : git@github.com:lois47/IsiProject.git
+	- Dans host laissez comme tel.
+	- De même dans repository path
+	- Mettez le protocole "ssh"
+	- Cochez la case "Store in Secure Store"
+- Cliquez sur next puis sélectionnez le projet.
+- Cliquez sur Terminer.

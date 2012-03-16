@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	 <question type="multichoice">
+		 <name>
+	         <text>Question à choix multiples</text>
+	     </name>
+	     <questiontext format="html">
+	         <text>Quelles sont les réponses à la question ?</text>
+	     </questiontext>
+		 <answer fraction="33.33">
+		     <text>Réponse 1</text>
+		    <feedback><text>Correct</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		     <text>Réponse 2</text>
+		    <feedback><text>Faux</text></feedback>
+		 </answer>
+		 <answer fraction="33.33">
+		     <text>Réponse 3</text>
+		    <feedback><text>Correct</text></feedback>
+		 </answer>
+		 <answer fraction="33.33">
+		     <text>Réponse 4</text>
+		    <feedback><text>Correct</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		     <text>Réponse 5</text>
+		    <feedback><text>Faux</text></feedback>
+		 </answer>
+		 <shuffleanswers>1</shuffleanswers>
+		 <single>false</single>
+		 <answernumbering>abc</answernumbering>
+	 </question>
+</quiz>

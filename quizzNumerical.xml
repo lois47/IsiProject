@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="numerical">
+		 <name>
+	         <text>Question de type numérique</text>
+	     </name>
+	     <questiontext format="html">
+	         <text>Quel est la réponse de l'univers</text>
+	     </questiontext>
+		 <answer fraction="100">
+		     <text>42</text>
+		     <feedback><text>Bonne réponse</text></feedback>
+		 </answer>
+	</question>
+</quiz>

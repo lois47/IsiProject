@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+	<question type="truefalse">
+		 <name>
+	         <text>Question de type vrai/faux</text>
+	     </name>
+	     <questiontext format="html">
+	         <text>Quelles est la réponse à la question ?</text>
+	     </questiontext>
+	     <answer fraction="100">
+		    <text>true</text>
+		    <feedback><text>Correct</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		    <text>false</text>
+		    <feedback><text>Faux</text></feedback>
+		 </answer>
+	</question>
+</quiz>

@@ -21,9 +21,9 @@ public class ParserMain {
 			JAXBContext jc = JAXBContext.newInstance("jaxb_classes");
 			Unmarshaller unmarshaller = jc.createUnmarshaller();
 			Quiz quiz = (Quiz) unmarshaller.unmarshal(fileXML);
-			List<Question> question = quiz.getQuestion();
-			for(int i = 0; i < question.size(); i++) {
-				System.out.println("Question numÃ©ro : " + i + " est de type " + question.get(i).getType());
+			List<Question> questions = quiz.getQuestion();
+			for ( int i = 0 ; i<questions.size(); i++){
+				System.out.println("Question numéro : " +i+ " est de type " +questions.get(i).getType());
 			}
 			
 			File newQuiz = new File("quiz2.xml");

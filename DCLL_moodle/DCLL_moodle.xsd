@@ -96,7 +96,7 @@
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
-		<xsd:attribute name="fraction" type="xsd:unsignedLong" />
+		<xsd:attribute name="fraction" type="xsd:float" />
 	</xsd:complexType>
 
 	<xsd:complexType name="unitsType">

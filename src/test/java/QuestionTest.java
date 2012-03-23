@@ -1,6 +1,8 @@
 
 import jaxb_classes.QuestiontextType;
 import jaxb_classes.Quiz.Question;
+import junit.framework.TestCase;
+import org.junit.Test;
 
 
 public class QuestionTest extends TestCase {
@@ -16,12 +18,12 @@ public class QuestionTest extends TestCase {
 		// TODO Auto-generated method stub
 		super.tearDown();
 	}
-
+	
+	@Test
 	public void testGetQuestionText(){
 		Question q = new Question();
 		QuestiontextType Qt = new QuestiontextType(); 
 		q.setQuestiontext(Qt);
 		assertEquals(q.getQuestiontext(), Qt);
 	}
-
 }

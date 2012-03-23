@@ -13,7 +13,7 @@ import jaxb_classes.Quiz.Question;
 
 /**
  * 
- * @author Lois
+ * @author Lois, Vincent, Robin, 
  *
  */
 //@SuppressWarnings("restriction")

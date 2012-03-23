@@ -11,11 +11,18 @@ import jaxb_classes.Quiz.Question;
 
 
 
-
+/**
+ * 
+ * @author Lois
+ *
+ */
 //@SuppressWarnings("restriction")
 public class ParserMain {
-	
-	public static void main(String args[]) {
+	/**
+	 * 
+	 * @param args
+	 */
+	public static void main(final String args[]) {
 		File fileXML = new File("quiz.xml");
 		try {
 			JAXBContext jc = JAXBContext.newInstance("jaxb_classes");
@@ -25,7 +32,6 @@ public class ParserMain {
 			for ( int i = 0 ; i<questions.size(); i++){
 				System.out.println("Question numéro : " +i+ " est de type " +questions.get(i).getType());
 			}
-			
 			File newQuiz = new File("quiz2.xml");
 			if(newQuiz.exists()) newQuiz.delete();
 			
@@ -35,7 +41,6 @@ public class ParserMain {
 			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, new Boolean(true));
 //			Validator validator = jaxbContext.createValidator();
 			marshaller.marshal(quiz, new FileOutputStream("quiz2.xml"));
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

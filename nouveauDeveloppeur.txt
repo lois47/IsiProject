@@ -13,3 +13,14 @@ Sur Eclipse (STS de préférence) :
 	- Cochez la case "Store in Secure Store"
 - Cliquez sur next puis sélectionnez le projet.
 - Cliquez sur Terminer.
+- Télécharger le plugin Maven si vous n'êtes pas sur STS
+
+Avant de push sur le master,
+- Vérifiez que votre code fonctionne
+- Vérifiez le checkstyle de votre code avec maven en faisant les instuctions suivantes :
+	- Clique droit sur le projet
+	- "Run as" puis "Maven Project"
+	- Dans le champ goal, tapez "site" puis valisez
+	- Regardez les warning et/ou les erreurs puis les corriger si vous en avez
+- Pour vérifier vous test faite la même manipulation que pour le checkstyle en mettant "test" à la place de "site"
+- Pour vérifier que votre code passe bien toute les étapes de maven,  faite la même manipulation que pour le checkstyle en mettant "clean install" à la place de "site"

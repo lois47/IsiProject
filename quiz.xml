@@ -298,7 +298,7 @@ Une architecture distribuée peut reposer par exemple sur RMI
           </text>
 			</feedback>
 		</answer>
-		<answer fraction="33.333">
+		<answer fraction="33">
 			<text>
 Une architecture client serveur est une architecture N-tiers
         </text>
@@ -308,7 +308,7 @@ Une architecture client serveur est une architecture N-tiers
           </text>
 			</feedback>
 		</answer>
-		<answer fraction="33.333">
+		<answer fraction="33">
 			<text>
 Une architecture N-tiers correspond à une architecture d'application distribuée sur plusieurs noeuds physiques
         </text>
@@ -318,7 +318,7 @@ Une architecture N-tiers correspond à une architecture d'application distribué
           </text>
 			</feedback>
 		</answer>
-		<answer fraction="33.333">
+		<answer fraction="33">
 			<text>
 Une application web est une application reposant sur une architecture N Tiers
         </text>
